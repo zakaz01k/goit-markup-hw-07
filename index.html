@@ -17,6 +17,8 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<link rel="stylesheet" href="./css/mobile.css" />
+		<link rel="stylesheet" href="./css/tablet.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
 		<title>WebStudio</title>
 	</head>
@@ -43,17 +45,23 @@
 							</li>
 						</ul>
 					</address>
+					<button type="button" class="mobile-menu-open">
+						<svg class="mobile-menu-burger" width="32" height="22">
+							<use href="./images/sprite.svg#mobile-menu"></use>
+						</svg>
+					</button>
 				</nav>
 			</div>
 		</header>
 		<!-- Основна -->
 		<main>
-			<section class="hero">
+			 <section class="hero">
 				<div class="container">
 					<h1 class="hero-title">Effective Solutions for Your Business</h1>
 
 					<button class="hero-button" data-modal-open type="button">Order Service</button>
-
+				
+					<!--
 					<div data-modal class="backdrop is-hidden">
 						<div class="modal">
 							<h1 class="form-title">Leave your contacts and we will call you back</h1>
@@ -169,8 +177,9 @@
 					</ul>
 				</div>
 			</section>
+		-->
 
-			<section class="section photos">
+			<!-- <section class="section photos">
 				<div class="container">
 					<h2 class="section-title">What are we doing</h2>
 					<ul class="main-photos">
@@ -185,8 +194,9 @@
 						</li>
 					</ul>
 				</div>
-			</section>
+			</section> -->
 
+			<!--	
 			<section class="section team">
 				<div class="container">
 					<h2 class="section-title">Our Team</h2>
@@ -390,11 +400,11 @@
 						</li>
 					</ul>
 				</div>
-			</section>
+			</section> -->
 		</main>
 		<!-- Подвал -->
 		<footer>
-			<div class="container footer">
+			<!-- <div class="container footer">
 				<div class="logo-footer">
 					<a class="logo-web" href="./index.html">Web<span class="logo-studio">Studio</span></a>
 					<p class="text"
@@ -449,10 +459,9 @@
 						</button>
 					</form>
 				</div>
-			</div>
+			</div> -->
 		</footer>
 
-		<!-- проблема с иконкой в футере сбилось позиционирование -->
-		<script src="./modal.js"></script>
+		<!-- <script src="./modal.js"></script> -->
 	</body>
 </html>
