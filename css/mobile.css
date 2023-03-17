@@ -432,6 +432,7 @@ textarea.form-input {
 	background-color: var(--category-button-bg-c);
 	padding-top: 96px;
 	padding-bottom: 128px;
+	width: 100%;
 }
 
 .section.team .section-title {
@@ -563,6 +564,7 @@ textarea.form-input {
 	background-color: var(--title-text-color);
 	padding-top: 96px;
 	padding-bottom: 96px;
+	width: 100%;
 }
 /* Logo */
 .logo-footer .logo-web {
