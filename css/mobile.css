@@ -642,6 +642,7 @@ textarea.form-input {
 .subscribe-footer {
 	display: flex;
 	flex-direction: column;
+	/* width: 396px; */
 
 	align-items: center;
 }
@@ -673,7 +674,7 @@ textarea.form-input {
 
 .subscribe-footer .input {
 	display: inline-block;
-	width: 396px;
+	width: 100%;
 
 	padding: 8px 16px;
 	height: 40px;
