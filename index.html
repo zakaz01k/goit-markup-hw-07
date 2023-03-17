@@ -45,11 +45,70 @@
 							</li>
 						</ul>
 					</address>
-					<button type="button" class="mobile-menu-open">
+					<button js-open-menu type="button" class="mobile-menu-open js-open-menu">
 						<svg class="mobile-menu-burger" width="32" height="22">
 							<use href="./images/sprite.svg#mobile-menu"></use>
 						</svg>
 					</button>
+					<!--  -->
+					<div class="mobile-backdrop is-open js-menu-container">
+						<ul class="mobile-site-nav">
+							<li class="item"><a href="./index.html" class="mobile-link current">Studio</a></li>
+							<li class="item"><a href="./portfolio.html" class="mobile-link">Portfolio</a></li>
+							<li class="item"><a href="" class="mobile-link">Contacts</a></li>
+						</ul>
+
+						<address class="mobile-address">
+							<ul class="mobile-contacts-nav">
+								<li class="item">
+									<a href="tel:+110001111111" class="phone-number">+11 (000) 111-11-11</a>
+								</li>
+								<li class="item">
+									<a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+								</li>
+							</ul>
+						</address>
+
+						<div class="mobile-social">
+							<ul class="mobile-social-icons">
+								<li>
+									<a href="https://www.instagram.com/" class="link" aria-label="instagram">
+										<svg width="24" height="24">
+											<use href="./images/sprite.svg#instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/" class="link" aria-label="twitter">
+										<svg width="24" height="24">
+											<use href="./images/sprite.svg#twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/" class="link" aria-label="facebook">
+										<svg width="24" height="24">
+											<use href="./images/sprite.svg#facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/" class="link" aria-label="linkedin">
+										<svg width="24" height="24">
+											<use href="./images/sprite.svg#linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<button js-close-menu class="button-close mobile js-close-menu">
+							<svg width="8" height="8">
+								<use href="./images/sprite.svg#close"></use>
+							</svg>
+						</button>
+					</div>
+					<!--  -->
 				</nav>
 			</div>
 		</header>
@@ -177,7 +236,7 @@
 				</div>
 			</section>
 
-			<!-- <section class="section photos">
+			<section class="section photos">
 				<div class="container">
 					<h2 class="section-title">What are we doing</h2>
 					<ul class="main-photos">
@@ -192,7 +251,7 @@
 						</li>
 					</ul>
 				</div>
-			</section> -->
+			</section>
 
 			<section class="section team">
 				<div class="container team">
@@ -460,7 +519,7 @@
 				</div>
 			</div>
 		</footer>
-
-		<script src="./modal.js"></script>
+		<script src="./js/mobile-menu.js"></script>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
