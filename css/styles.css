@@ -48,6 +48,14 @@ textarea {
 		display: none;
 	}
 
+	.container {
+		width: 1158px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+
 	/* Logo */
 	.logo-web {
 		line-height: 24px;
@@ -111,6 +119,8 @@ textarea {
 	.hero {
 		height: 600px;
 
+		max-width: 1440px;
+
 		padding-top: 188px;
 		padding-bottom: 188px;
 
@@ -146,10 +156,9 @@ textarea {
 	}
 
 	.advantages-list {
-		flex-wrap: wrap;
+		flex-direction: row;
 		column-gap: 24px;
-		row-gap: 0;
-		align-items: normal;
+		flex-wrap: nowrap;
 	}
 	.advantages-item {
 		width: 264px;
@@ -220,17 +229,18 @@ textarea {
 	}
 
 	.customers-bg {
-		width: 168px;
+		padding: 16px 32px;
 	}
 
 	/* Footer */
-
-	.container.footer {
-		flex-wrap: nowrap;
+	footer {
 		padding-top: 100px;
 		padding-bottom: 100px;
-
+	}
+	.container.footer {
+		flex-wrap: nowrap;
 		justify-content: space-between;
+		width: 1158px;
 	}
 
 	.logo-footer {

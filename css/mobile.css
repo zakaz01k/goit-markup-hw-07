@@ -12,7 +12,7 @@
 }
 
 .container {
-	width: 100%;
+	width: 428px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 16px;
@@ -513,10 +513,13 @@ textarea.form-input {
 }
 
 .advantages-list {
+	/* display: inline-block; */
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+
+	width: 428px;
 }
 
 .advantages-list .title {
@@ -563,12 +566,13 @@ textarea.form-input {
 }
 
 /* Our Team */
+.section.team {
+	background-color: var(--category-button-bg-c);
+}
 
 .container.team {
-	background-color: var(--category-button-bg-c);
 	padding-top: 96px;
 	padding-bottom: 128px;
-	width: 100%;
 }
 
 .section.team .section-title {
@@ -695,12 +699,14 @@ textarea.form-input {
 }
 
 /* Footer */
-
-.container.footer {
+footer {
 	background-color: var(--title-text-color);
 	padding-top: 96px;
 	padding-bottom: 96px;
-	width: 100%;
+}
+
+.container.footer {
+	width: 428px;
 }
 /* Logo */
 .logo-footer .logo-web {
@@ -813,8 +819,8 @@ textarea.form-input {
 
 .subscribe-footer .input {
 	display: inline-block;
-	max-width: 396px;
-	width: 100%;
+	/* max-width: 396px; */
+	width: 396px;
 	padding: 8px 16px;
 	height: 40px;
 
