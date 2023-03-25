@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
 	.section.photos {
 		display: none;
 	}
@@ -90,7 +93,8 @@
 	.hero {
 		height: 436px;
 
-		padding-bottom: 108px;
+		padding-bottom: 112px;
+		padding-top: 108px;
 
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tablet.jpg);
 	}
@@ -99,7 +103,7 @@
 		screen and (min-resolution: 192dpi),
 		screen and (min-resolution: 2dppx) {
 		.hero {
-			height: 600px;
+			height: 436px;
 
 			padding-top: 188px;
 			padding-bottom: 188px;
@@ -124,6 +128,7 @@
 		column-gap: 24px;
 		align-items: normal;
 		flex-direction: row;
+		max-width: 768px;
 	}
 	.advantages-item .title {
 		text-align: left;
@@ -136,6 +141,7 @@
 	.advantages-item {
 		width: 356px;
 	}
+
 	.advantages-item:not(:last-child) {
 		margin: 0;
 	}
@@ -162,32 +168,35 @@
 		width: 168px;
 	}
 
+	.customers-list {
+		row-gap: 72px;
+		column-gap: 24px;
+	}
 	/* Footer */
 
 	.container.footer {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-
-		column-gap: 24px;
-
-		justify-content: center;
-		margin-right: auto;
-		margin-left: auto;
+		width: 100%;
+		max-width: 552px;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	.logo-footer {
 		margin-bottom: 0;
+		margin-right: 24px;
+		align-items: normal;
 	}
 
 	.social-footer {
 		margin-bottom: 0;
+		align-items: normal;
 	}
 
 	.subscribe-footer {
 		margin-top: 72px;
-
-		align-items: center;
 	}
 	.subscribe-footer > h2 {
 		text-align: left;

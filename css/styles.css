@@ -50,10 +50,6 @@ textarea {
 
 	.container {
 		width: 1158px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-right: 16px;
-		padding-left: 16px;
 	}
 
 	/* Logo */
@@ -133,6 +129,8 @@ textarea {
 		.hero {
 			height: 600px;
 
+			max-width: 1440px;
+
 			padding-top: 188px;
 			padding-bottom: 188px;
 			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -159,7 +157,13 @@ textarea {
 		flex-direction: row;
 		column-gap: 24px;
 		flex-wrap: nowrap;
+
+		margin-right: auto;
+		margin-left: auto;
+
+		max-width: 1128px;
 	}
+
 	.advantages-item {
 		width: 264px;
 	}
@@ -221,8 +225,15 @@ textarea {
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
-	/* Customers */
 
+	.team-list {
+		width: 1128px;
+	}
+	/* Customers */
+	.customers-list {
+		flex-wrap: nowrap;
+		width: 1128px;
+	}
 	.section.customers {
 		padding-top: 120px;
 		padding-bottom: 120px;
@@ -240,7 +251,7 @@ textarea {
 	.container.footer {
 		flex-wrap: nowrap;
 		justify-content: space-between;
-		width: 1158px;
+		max-width: 1128px;
 	}
 
 	.logo-footer {
