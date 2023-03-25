@@ -227,7 +227,9 @@ textarea {
 	}
 
 	.team-list {
-		width: 1128px;
+		max-width: 1128px;
+		width: 100%;
+		flex-wrap: nowrap;
 	}
 	/* Customers */
 	.customers-list {
