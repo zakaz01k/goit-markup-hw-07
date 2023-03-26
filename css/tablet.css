@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
 	.container {
-		width: 768px;
+		max-width: 768px;
 	}
 	.section.photos {
 		display: none;
@@ -92,6 +92,8 @@
 
 	.hero {
 		height: 436px;
+		width: 100%;
+		max-width: 768px;
 
 		padding-bottom: 112px;
 		padding-top: 108px;
@@ -112,13 +114,20 @@
 	}
 
 	.hero-title {
-		width: 494px;
+		max-width: 494px;
+		width: 100%;
 
 		font-weight: 700;
 		font-size: 56px;
 		line-height: 60px;
 
 		margin-bottom: 40px;
+	}
+
+	/* Modal */
+	.modal {
+		max-width: 408px;
+		max-height: 586px;
 	}
 
 	/* Advantages */

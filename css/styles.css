@@ -49,7 +49,7 @@ textarea {
 	}
 
 	.container {
-		width: 1158px;
+		max-width: 1158px;
 	}
 
 	/* Logo */
@@ -139,12 +139,17 @@ textarea {
 	}
 
 	.hero-title {
-		width: 496px;
+		max-width: 496px;
 
 		font-size: 56px;
 		line-height: 60px;
 
 		margin-bottom: 48px;
+	}
+
+	/* Modal */
+	.modal {
+		max-height: 584px;
 	}
 
 	/* Advantages */
