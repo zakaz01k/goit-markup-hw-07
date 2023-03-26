@@ -49,7 +49,7 @@ textarea {
 	}
 
 	.container {
-		width: 1158px;
+		max-width: 1158px;
 	}
 
 	/* Logo */
