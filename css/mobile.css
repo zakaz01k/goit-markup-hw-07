@@ -286,8 +286,8 @@ header .logo-studio {
 	top: 50%;
 	left: 50%;
 
-	/* min-width: 408px;
-	min-height: 576px; */
+	max-width: 392px;
+	max-height: 586px;
 	width: 90%;
 	height: 90%;
 
@@ -426,8 +426,8 @@ textarea.form-input {
 .checkbox-icon {
 	display: inline-block;
 
-	width: 16px;
-	height: 16px;
+	min-width: 16px;
+	min-height: 16px;
 
 	border: 1.25px solid #2e2f42;
 	border-radius: 2px;
